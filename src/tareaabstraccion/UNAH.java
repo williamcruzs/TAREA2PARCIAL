@@ -13,7 +13,7 @@ public class UNAH extends Universidad{
 //Clase extendida de la clase abstracta Universidad
     @Override
     public String getUniversidad() {
-        return "UNAH"; //To change body of generated methods, choose Tools | Templates.
+        return "UNAH   "; //To change body of generated methods, choose Tools | Templates.
     }
 
     @Override
