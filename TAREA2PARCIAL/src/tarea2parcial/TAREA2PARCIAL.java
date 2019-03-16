@@ -15,7 +15,11 @@ public class TAREA2PARCIAL {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        // TODO code application logic here
+        Estudiante est= new Estudiante();
+        est.setCarrera("Ing. Produccion Industrial");
+        est.setUniversidad("UTH");
+       System.out.println(est.obtenerInformacionpersona());
+           
     }
     
 }
