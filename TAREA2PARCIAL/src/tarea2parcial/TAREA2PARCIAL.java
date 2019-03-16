@@ -17,7 +17,7 @@ public class TAREA2PARCIAL {
     public static void main(String[] args) {
         Estudiante est= new Estudiante();
         est.setCarrera("Ing. Produccion Industrial");
-        est.setUniversidad("UTH");
+        est.setUniversidad("UTH ");
        System.out.println(est.obtenerInformacionpersona());
            
     }
