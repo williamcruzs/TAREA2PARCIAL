@@ -11,8 +11,6 @@ package persona;
  */
 public abstract class Persona {
     
-    
-    
     //abstraccion;
     abstract String getLocalidad();
     
@@ -20,6 +18,7 @@ public abstract class Persona {
     public String nombre;
      public String pasantia;
     private int edad;
+    public String sexo;
     
     public void setNombre(String _nombre){
         this.nombre =_nombre;
@@ -27,7 +26,7 @@ public abstract class Persona {
     public String getNombre(){
         return nombre;
     }
-    public void setPasantia(String _pasantia){
+     public void setPasantia(String _pasantia){
         this.pasantia =_pasantia;
     }
     public String getPasantia(){
@@ -37,12 +36,21 @@ public abstract class Persona {
         this.edad =_edad;
     }
     public int getEdad(){
-        return edad;}
+        return edad; 
+    }
+    public void setSexo(String _sexo){
+        this.sexo =_sexo;
+    }
+    public String getSexo(){
+        return sexo;
+    }
     
         public void Imprimirdatos(){
-       System.out.println("Nombre" + nombre);
-        System.out.println("Pasantia" + pasantia);
-    
+            
+       System.out.println("Nombre  es: " + nombre);
+        System.out.println("Pasantia es: " + pasantia);
+        System.out.println("El tipo de sexo es: " + sexo);
+       
         }
      //poliformismo
-     abstract String obtenerInformacionpersona();}
+      abstract String obtenerInformacionpersona();}
