@@ -39,7 +39,7 @@ public String getUniversidad(){
     
     @Override
     String getLocalidad() {
-        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+        return " "; //To change body of generated methods, choose Tools | Templates.
     }
 
     @Override
