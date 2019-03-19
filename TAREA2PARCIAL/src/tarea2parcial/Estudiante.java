@@ -39,7 +39,7 @@ public String getUniversidad(){
     
     @Override
     String getLocalidad() {
-        return " "; //To change body of generated methods, choose Tools | Templates.
+        return " El Progreso"; //To change body of generated methods, choose Tools | Templates.
     }
 
     @Override
