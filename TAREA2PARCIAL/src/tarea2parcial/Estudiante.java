@@ -9,7 +9,7 @@ package tarea2parcial;
  *
  * @author Cesia Zamora
  */
-public class Estudiante extends Persona{
+public class Estudiante extends Personas{
 public String carrera;
 public String universidad;
 
@@ -18,9 +18,11 @@ public Estudiante(){
     setEdad(21);
     setSexo("Femenino");
     setPasantia("Estudiar");
+    setCarrera("Ing. Poducción Industrial");
+    setUniversidad("UTH");
 }
 
-public void setCarrera(String _carrera){
+ public void setCarrera(String _carrera){
     this.carrera = _carrera;
 }
 
@@ -35,7 +37,6 @@ public void setUniversidad(String _universidad){
 public String getUniversidad(){
     return universidad;
 }
-
     
     @Override
     String getLocalidad() {
