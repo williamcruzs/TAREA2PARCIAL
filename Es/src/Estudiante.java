@@ -19,7 +19,7 @@ public Estudiante(){
     setSexo("Femenino");
     setPasantia("Estudiar");
     setCarrera("Ing. Poducción Industrial");
-    setUniversidad("UTH");
+    setUniversidad(" UTH ");
 }
 
  public void setCarrera(String _carrera){
