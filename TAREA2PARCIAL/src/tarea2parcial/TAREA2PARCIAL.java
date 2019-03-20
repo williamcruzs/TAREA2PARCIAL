@@ -15,8 +15,8 @@ public class TAREA2PARCIAL {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        Estudiante est= new Estudiante();
-       System.out.println(est.obtenerInformacionpersona());
+        Estudiante est = new Estudiante();
+       System.out.println( est.obtenerInformacionpersona());
            
     }
     
